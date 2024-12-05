@@ -7,7 +7,7 @@ export const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'pokemons',
+    path: 'pokemons/page/:currentPage',
     loadComponent: () => import('./pages/pokemon-page/pokemon-page.component'),
   },
   {
